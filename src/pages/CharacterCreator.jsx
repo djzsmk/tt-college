@@ -1,6 +1,6 @@
 function CharacterCreator () {
     return (
-        <h2>Character creator</h2>
+        <h1>Character creator</h1>
     )
 }
 

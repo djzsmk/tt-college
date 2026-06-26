@@ -1,7 +1,8 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route,  } from "react-router-dom";
 import Home from "./pages/Home";
 import CharacterCreator from "./pages/CharacterCreator";
 import Adventue from "./pages/Adventure"
+import Navbar from "./components/Navbar";
 
 export default function App () {
   return (
@@ -11,6 +12,7 @@ export default function App () {
         <Route path="/create" element={<CharacterCreator />} />
         <Route path="/adventure" element={<Adventue />} />
       </Routes>
+      <Navbar/>
     </BrowserRouter>
   );
 }
